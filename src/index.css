@@ -1,28 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@300;400&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@300;400&family=Space+Mono&display=swap");
 
-* , *::before, *::after{
-margin: 0;
-padding: 0;
-border: 0;
-outline: 0;
-list-style: none;
-text-decoration: none;
-box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-
-
-:root{
-    --main-color-one: #BD6F51;
-    --secondary-color: #F9EFED;
-    --secondary-color-two: #D6BEBC;
-    --secondary-color-three: #C18D7A;
-    --secondary-color-four: #C8CAC7;
-    --secondary-color-five: #343D42;
-    --secondary-color-six: #C9C9C9;
-    --heading-color: #222222;
-    --heading-color-two: #BD6F51;
-    --paragraph-color: #72706A;
-    --ptimary-font:'Oswald', sans-serif;
-    --secondary-font: 'Space Mono', monospace;
+:root {
+  --main-color-one: #bd6f51;
+  --secondary-color: #f9efed;
+  --secondary-color-two: #d6bebc;
+  --secondary-color-three: #c18d7a;
+  --secondary-color-four: #c8cac7;
+  --secondary-color-five: #343d42;
+  --secondary-color-six: #c9c9c9;
+  --heading-color: #222222;
+  --heading-color-two: #bd6f51;
+  --paragraph-color: #72706a;
+  --ptimary-font: "Oswald", sans-serif;
+  --secondary-font: "Space Mono", monospace;
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --transition: all 500ms ease;
+}
+/* general style start here */
+body{
+    font-family: 'Oswald', sans-serif;
+    color: var(--paragraph-color);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background: var(--secondary-color);
+}
+.container{
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+/* general style end here */
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+  
+}
+h1{
+    font-size: 3rem;
+    color: var(--main-color-one);
+}
+h2{
+    font-size: 2rem;
+    color: var(--secondary-color-three);
+}
+a{
+    color: var(--heading-color-two);
+}
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
 }

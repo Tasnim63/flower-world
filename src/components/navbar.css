@@ -1,0 +1,57 @@
+nav{
+    height: 5rem;
+    width: 100vw;
+    background: var( --secondary-color-two);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+/* obly show on medium and small screen */
+.nav_toggle_btn{
+    display: none;
+}
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    width: 7rem;
+}
+.nav_links{
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+.nav_links a{
+    transition: var(--transition);
+}
+.nav_links a:hover{
+    color: var(--secondary-color-two);
+}
+.active_nav{
+    position: relative;
+}
+.active_nav::after{
+    content: '';
+    display: block;
+    width:1.2rem ;
+    height: 1.2rem;
+    background-color: var(--secondary-color-two);
+    position: absolute;
+    left: calc(50% - 0.6rem );
+    transform: rotate(45deg);
+    margin-top: 0.9rem;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@300;400&family=Space+Mono&display=swap');
+
+* , *::before, *::after{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+
+
+:root{
+    --main-color-one: #BD6F51;
+    --secondary-color: #F9EFED;
+    --secondary-color-two: #D6BEBC;
+    --secondary-color-three: #C18D7A;
+    --secondary-color-four: #C8CAC7;
+    --secondary-color-five: #343D42;
+    --secondary-color-six: #C9C9C9;
+    --heading-color: #222222;
+    --heading-color-two: #BD6F51;
+    --paragraph-color: #72706A;
+    --ptimary-font:'Oswald', sans-serif;
+    --secondary-font: 'Space Mono', monospace;
+}

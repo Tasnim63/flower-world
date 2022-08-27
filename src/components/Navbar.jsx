@@ -8,7 +8,7 @@ export default function Navbar() {
   <nav>
     <div className='container nav_container'>
        <Link to="/" className='logo'>
-        <img src="https://htmldemo.net/fultala/p2/img/fultala/logo.png" alt="Nav logo" />
+        <img src="http://zwin.io/html/gazania/assets/img/logo.png" alt="Nav logo" />
        </Link>
        <ul className='nav_links'>
         {

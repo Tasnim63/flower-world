@@ -14,9 +14,9 @@ export default function Navbar() {
        </Link>
        <ul className={`nav_links ${isNavShowing ?  'show_nav' : 'hide_nav'}`}>
         {
-            links.map(({name,path}, inddex)=>{
+            links.map(({name,path}, index)=>{
                 return(
-                    <li>
+                    <li key={index}>
                         <NavLink to={path} className={({isActive}) =>  isActive ? 'active_nav' : ''} >{name}</NavLink>
                     </li>
                 )

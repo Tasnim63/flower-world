@@ -1,6 +1,7 @@
 import React from "react";
 import MainHeader from "../../components/MainHeader";
 import Programs from "../../components/Programs";
+import Vanlues from "../../components/Vanlues";
 
 import "./home.css";
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <MainHeader></MainHeader>
     <Programs></Programs>
+    <Vanlues></Vanlues>
     </>
   );
 }

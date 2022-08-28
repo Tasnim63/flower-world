@@ -1,4 +1,5 @@
-import {SiOpenaigym} from 'react-icons/si'
+
+import {GiFlowerEmblem} from 'react-icons/gi'
 
 
 
@@ -38,30 +39,30 @@ export const links = [
 export const programs = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <GiFlowerEmblem></GiFlowerEmblem>,
+        title: "Fall Arrivals",
+        info: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!",
         path: "/programs/111"
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <GiFlowerEmblem></GiFlowerEmblem>,
+        title: "New Wreaths",
+        info: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <GiFlowerEmblem></GiFlowerEmblem>,
+        title: "Fall Arrivals",
+        info: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!",
         path: "/programs/333"
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <GiFlowerEmblem></GiFlowerEmblem>,
+        title: "Instant Cashback",
+        info: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!",
         path: "/programs/444"
     }
 ]
@@ -73,32 +74,32 @@ export const programs = [
 
 
 
-// export const values = [
-//     {
-//         id: 1,
-//         icon: <SiOpenaigym/>,
-//         title: "Value One",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     },
-//     {
-//         id: 2,
-//         icon: <SiOpenaigym/>,
-//         title: "Value Two",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     },
-//     {
-//         id: 3,
-//         icon: <SiOpenaigym/>,
-//         title: "Value Three",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     },
-//     {
-//         id: 4,
-//         icon: <SiOpenaigym/>,
-//         title: "Value Four",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     }
-// ]
+export const values = [
+    {
+        id: 1,
+        icon: <GiFlowerEmblem></GiFlowerEmblem>,
+        title: "Flowers Value One",
+        desc: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!"
+    },
+    {
+        id: 2,
+        icon:<GiFlowerEmblem></GiFlowerEmblem>,
+        title: "Flowers Value Two",
+        desc: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!"
+    },
+    {
+        id: 3,
+        icon:<GiFlowerEmblem></GiFlowerEmblem>,
+        title: " Flowers Value Three",
+        desc: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!"
+    },
+    {
+        id: 4,
+        icon:<GiFlowerEmblem></GiFlowerEmblem>,
+        title: "Flowers Value Four",
+        desc: "Before you select a bouquet, check out the flower meanings from The Old Farmer’s Almanac!"
+    }
+]
 
 
 

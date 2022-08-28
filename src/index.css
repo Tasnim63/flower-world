@@ -81,7 +81,7 @@ section{
     background: var(--paragraph-color);
 }
 .card{
-    background:var(  --secondary-color-three) ;
+    background:var( --secondary-color-two) ;
     border: 2px solid transparent ;
     text-align: center;
     padding: 3rem 2rem;

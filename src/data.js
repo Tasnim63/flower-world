@@ -103,44 +103,38 @@ export const values = [
 
 
 
-
-
-
-
-
-
-// export const faqs = [
-//     {
-//         id: 1,
-//         question: "How often should I exercise?",
-//         answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
-//     },
-//     {
-//         id: 2,
-//         question: "What time of day is best to work out?",
-//         answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
-//     },
-//     {
-//         id: 3,
-//         question: "How long should my workouts be?",
-//         answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
-//     },
-//     {
-//         id: 4,
-//         question: "Do I need to warm up before my workouts?",
-//         answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
-//     },
-//     {
-//         id: 5,
-//         question: "Should I do strength training, cardio or both?",
-//         answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
-//     },
-//     {
-//         id: 6,
-//         question: "Should I lift weights for strength training?",
-//         answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
-//     }
-// ]
+export const faqs = [
+    {
+        id: 1,
+        question: "Tell me the defination of flowers?",
+        answer: "A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). The biological function of a flower is to facilitate reproduction, usually by providing a mechanism for the union of sperm with eggs."
+    },
+    {
+        id: 2,
+        question: "What is a flower definition in biology?",
+        answer: "A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). The biological function of a flower is to facilitate reproduction, usually by providing a mechanism for the union of sperm with eggs."
+    },
+    {
+        id: 3,
+        question:"Tell me the defination of flowers?",
+        answer: "A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). The biological function of a flower is to facilitate reproduction, usually by providing a mechanism for the union of sperm with eggs."
+    },
+    {
+        id: 4,
+        question:"What is a flower answer?",
+        answer: "A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). The biological function of a flower is to facilitate reproduction, usually by providing a mechanism for the union of sperm with eggs."
+    },
+    {
+        id: 5,
+        question:"Is a flower a plant?",
+        answer: "A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). The biological function of a flower is to facilitate reproduction, usually by providing a mechanism for the union of sperm with eggs."
+    },
+    {
+        id: 6,
+        question:"What are flowers made of?",
+        answer: "A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). The biological function of a flower is to facilitate reproduction, usually by providing a mechanism for the union of sperm with eggs."
+    }
+]
 
 
 

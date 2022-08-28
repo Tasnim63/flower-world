@@ -11,6 +11,7 @@ import Plans from "./pages/plans/Plans";
 import NotFound from "./pages/notFound/NotFound";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 function App() {
   AOS.init();
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/flowers" element={<Flowers></Flowers>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+    
     </>
   );
 }

@@ -17,7 +17,7 @@ export default function Testimonial() {
   }
   const nextTestimonialHanddler =() =>{
      setIndex( prev => prev + 1);
-     if(index >= testimonials.length -1){
+     if(index >= testimonials.length - 1){
       setIndex(0);
      }
   }

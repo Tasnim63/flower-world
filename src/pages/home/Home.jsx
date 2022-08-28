@@ -7,6 +7,7 @@ import "./home.css";
 
 import AskedQuestions from "../../components/AskedQuestions";
 import Testimonial from "../../components/Testimonial";
+import Footer from "../../components/Footer";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <Vanlues></Vanlues>
       <AskedQuestions></AskedQuestions>
       <Testimonial></Testimonial>
+      <Footer></Footer>
     </>
   );
 }

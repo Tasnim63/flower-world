@@ -1,9 +1,13 @@
-import React from 'react';
-import './home.css';
+import React from "react";
+import MainHeader from "../../components/MainHeader";
+import Programs from "../../components/Programs";
+
+import "./home.css";
 export default function Home() {
   return (
-    <div>
-      <h1>home</h1>
-    </div>
-  )
+    <>
+      <MainHeader></MainHeader>
+    <Programs></Programs>
+    </>
+  );
 }

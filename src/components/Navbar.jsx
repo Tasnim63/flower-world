@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
   <nav>
     <div className='container nav_container'>
-       <Link to="/" className='logo'>
+       <Link onClick={() => setIsNavShowing(false) } to="/" className='logo'>
         <img src="http://zwin.io/html/gazania/assets/img/logo.png" alt="Nav logo" />
        </Link>
        <ul className={`nav_links ${isNavShowing ?  'show_nav' : 'hide_nav'}`}>
@@ -17,13 +17,13 @@ export default function Navbar() {
             links.map(({name,path}, index)=>{
                 return(
                     <li key={index}>
-                        <NavLink to={path} className={({isActive}) =>  isActive ? 'active_nav' : ''} >{name}</NavLink>
+                        <NavLink to={path} className={({isActive}) =>  isActive ? 'active_nav' : ''}  onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
                     </li>
                 )
             })
         }
        </ul>
-       <button onClick={() => setIsNavShowing(!isNavShowing)} className='nav_toggle_btn'>
+       <button onClick={() => setIsNavShowing(prev => !prev)} className='nav_toggle_btn'>
         
         {
             isNavShowing ? <AiOutlineClose></AiOutlineClose> :    <FaStream></FaStream>

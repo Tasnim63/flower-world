@@ -116,7 +116,7 @@ transition: var(--transition);
     display: block;
     font-weight: 300;
 }
-
+/* about page abber */
 .header{
    
     height: 20rem;
@@ -156,13 +156,6 @@ color: var(--secondary-color-five);
 }
 
 
-
-
-
-
-
-
-
 /* media query (medium and small devices */
 @media screen and (max-width:1024px) {
    
@@ -175,8 +168,25 @@ color: var(--secondary-color-five);
     h1{
       font-size: 1.6rem;
     }
+    /* about banner */
+    .header_content{
+      width: 76%;
+    }
 }
 
-
-
+@media screen and (max-width:600px)
+{
+  
+    .header{
+        height: fit-content;
+    }
+    .header_content{
+        width: var(--container-width-md);
+       
+    }
+    .header_content p{
+        font-size: 0.85rem;
+          color: var(--secondary-color);
+    }
+}
 

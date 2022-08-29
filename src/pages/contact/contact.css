@@ -1,0 +1,38 @@
+.contact_container{
+   display: grid;
+   place-items: center;
+}
+.contact_wrapper{
+    width: fit-content;
+    display: flex;
+    gap: 3rem;
+}
+.contact_wrapper a{
+    background: var(--secondary-color-five);
+    font-size: 3rem;
+    border: 2px solid transparent;
+    transition: var(--transition);
+    padding: 3rem;
+    border-radius: 1.5rem;
+}
+.contact_wrapper a:hover{
+    background: transparent;
+    border-color: var(--heading-color);
+}
+/* MEDIA QUERY for small screen */
+@media screen and (max-width:600px){
+    .contact_wrapper{
+        gap: 1.5rem;
+
+    }
+    .contact_wrapper a{
+           padding: 1rem;
+           font-size: 1.2rem;  
+           border-radius: 1rem;
+    }
+
+}
+
+
+
+

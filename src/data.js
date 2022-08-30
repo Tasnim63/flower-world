@@ -1,5 +1,5 @@
 
-import {GiFlowerEmblem} from 'react-icons/gi'
+import { GiFlowerEmblem } from 'react-icons/gi'
 
 
 
@@ -149,21 +149,21 @@ export const testimonials = [
         name: "Diana Ayi",
         quote: "The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers",
         job: "Student",
-        avatar:"http://zwin.io/html/gazania/assets/img/others/testimoni-1.png"
+        avatar:"https://themepure.net/template/agronix-prev/agronix/assets/img/project/project-4.jpg"
     },
     {
         id: 2,
         name: "Daniel Vinyo",
         quote: "The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers",
         job: "University Lecturer",
-        avatar:"http://zwin.io/html/gazania/assets/img/others/testimoni-2.png"
+        avatar:"https://themepure.net/template/agronix-prev/agronix/assets/img/project/project-12.jpg"
     },
     {
         id: 3,
         name: "Edem Quist",
         quote: "The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers",
         job: "University Lecturer",
-        avatar:"http://zwin.io/html/gazania/assets/img/others/testimoni-1.png"
+        avatar:"https://themepure.net/template/agronix-prev/agronix/assets/img/project/project-6.jpg"
     },
     
     {
@@ -171,7 +171,7 @@ export const testimonials = [
         name: "Nana Yaa Dankwa",
         quote: "The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers.The beautiful unspoken words of flowers",
         job: "Customer",
-        avatar:"http://zwin.io/html/gazania/assets/img/icon/user-img-2.png"
+        avatar:"https://themepure.net/template/agronix-prev/agronix/assets/img/project/project-4.jpg"
     }
 ]
 
@@ -250,13 +250,6 @@ export const plans = [
 
 
 
-// const Trainer1 = require('./images/trainer1.jpg')
-// const Trainer2 = require('./images/trainer2.jpg')
-// const Trainer3 = require('./images/trainer3.jpg')
-// const Trainer4 = require('./images/trainer4.jpg')
-// const Trainer5 = require('./images/trainer5.jpg')
-// const Trainer6 = require('./images/trainer6.jpg')
-
 
 export const flowers = [
     {
@@ -282,21 +275,21 @@ export const flowers = [
     },
     {
         id: 4,
-        image: "http://zwin.io/html/gazania/assets/img/others/newsletter-3.png",
+        image: "https://htmldemo.net/floda/floda/assets/img/product/product-details-img2.jpg",
         name: 'Pink Flower Tree',
         price:54,
        
     },
     {
         id: 5,
-        image: "http://zwin.io/html/gazania/assets/img/others/newsletter-1.png",
+      image: "https://tunatheme.com/tf/html/fiama-preview/fiama/img/blog/2.jpg",
         name: 'Pink Flower Tree',
         name: 'Pink Flower Tree',
        
     },
     {
         id: 6,
-        image: "http://zwin.io/html/gazania/assets/img/blog/2.png",
+        image: "https://tunatheme.com/tf/html/fiama-preview/fiama/img/product/1.png",
         name: 'White flowers',
         price:532,
       
@@ -317,7 +310,7 @@ export const flowers = [
     },
     {
         id: 9,
-        image: "http://zwin.io/html/gazania/assets/img/blog/2.png",
+        image: "https://tunatheme.com/tf/html/fiama-preview/fiama/img/blog/2.jpg",
         name: 'White flowers',
         price:532,
       

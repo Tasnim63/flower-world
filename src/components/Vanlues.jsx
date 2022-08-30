@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFlower3 } from "react-icons/bs";
-import image from "../assets/images/flower-banner.png";
+import image from "../assets/images/bannnerGirls.png";
 import { values } from "../data";
 import Card from "../UI/Card";
 import SectionHead from "./SectionHead";
@@ -10,7 +10,7 @@ export default function Vanlues() {
       <div className="container values_container">
         <div className="values_left">
             <div className="value_image">
-            <img src="http://zwin.io/html/gazania/assets/img/product/3.png" alt="value image" />
+            <img src={image} alt="value image" />
             </div>
          
         </div>

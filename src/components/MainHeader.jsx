@@ -1,5 +1,5 @@
 import React from "react";
-import bannerpic from "../assets/images/flower-banner.png";
+import bannerpic from "../assets/images/homebannerimage.png";
 import { Link } from "react-router-dom";
 export default function MainHeader() {
   return (
@@ -33,7 +33,7 @@ export default function MainHeader() {
           <div className="main-header-circle"></div>
           <div className="main_header-image">
             <img
-              src="http://zwin.io/html/gazania/assets/img/slider/home-4/1.png"
+              src={bannerpic}
               alt="flowers photo"
             />
           </div>

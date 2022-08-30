@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.css";
+import storyImage from '../../assets/images/flower-banner.png';
+import visionImage from '../../assets/images/flower6.jpg';
 
 import aboutImage from "../../assets/images/story-flowers.png";
 import Header from "../../components/Header";
@@ -15,7 +17,7 @@ export default function About() {
         <div className="container about_story-container">
           <div className="about_section-image">
             <img
-              src="http://zwin.io/html/gazania/assets/img/product/2.png"
+             src={visionImage}
               alt="story photos"
             />
           </div>
@@ -74,7 +76,7 @@ export default function About() {
           </div>
           <div className="about_section-image">
             <img
-              src="http://zwin.io/html/gazania/assets/img/product/1.png"
+              src={storyImage}
               alt="vision photos"
             />
           </div>
@@ -84,7 +86,7 @@ export default function About() {
         <div className="container about_mission-container">
           <div className="about_section-image">
             <img
-              src="http://zwin.io/html/gazania/assets/img/slider/home-1/1.jpg"
+                 src={visionImage}
               alt="mission photos"
             />
           </div>

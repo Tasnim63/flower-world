@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { Link } from "react-router-dom";
+import footerlogo from '../assets/images/footer-logo (1).png'
 export default function Footer() {
   return (
    <footer>
@@ -8,7 +9,7 @@ export default function Footer() {
     <div className="container footer_container">
       <article>
      <Link to="/" className='logo'>
-        <img src="http://zwin.io/html/gazania/assets/img/footer-logo.png" alt="footer logo" />
+        <img src={footerlogo} alt="footer logo" />
      </Link>
      <p>A flower is a stem of a plant that has one or more flowers on it and has been picked, usually with others, for example to give as a present or to put in a.</p>
      <div className="footer_social">

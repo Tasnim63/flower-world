@@ -3,6 +3,7 @@ import SectionHead from "./SectionHead";
 import { IoMdQuote } from "react-icons/io";
 import Card from "../UI/Card";
 import {BsFillArrowLeftCircleFill} from 'react-icons/bs';
+
 import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 import { testimonials } from "../data";
 export default function Testimonial() {

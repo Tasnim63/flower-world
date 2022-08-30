@@ -258,47 +258,68 @@ export const plans = [
 // const Trainer6 = require('./images/trainer6.jpg')
 
 
-// export const trainers = [
-//     {
-//         id: 1,
-//         image: Trainer1,
-//         name: 'John Doe',
-//         job: 'Aerobic Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 2,
-//         image: Trainer2,
-//         name: 'Daniel vinyo',
-//         job: 'Speed Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 3,
-//         image: Trainer3,
-//         name: 'Edem Quist',
-//         job: 'Flexibility Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 4,
-//         image: Trainer4,
-//         name: 'Shatta Wale',
-//         job: 'Body Composition Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 5,
-//         image: Trainer5,
-//         name: 'Diana Ayi',
-//         job: 'Circuit Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 6,
-//         image: Trainer6,
-//         name: 'Wayne Carter',
-//         job: 'Physical Intelligence Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     }
-// ]
+export const flowers = [
+    {
+        id: 1,
+        image: "https://tunatheme.com/tf/html/fiama-preview/fiama/img/product/1.png",
+        name: 'Pink Flower Tree',
+        price: 54,
+        
+    },
+    {
+        id: 2,
+        image: "https://tunatheme.com/tf/html/fiama-preview/fiama/img/product/2.png",
+        name: 'Premium Joyful',
+        price: 23,
+       
+    },
+    {
+        id: 3,
+        image: "https://tunatheme.com/tf/html/fiama-preview/fiama/img/blog/2.jpg",
+        name: 'Premium Joyful',
+        price: 233,
+       
+    },
+    {
+        id: 4,
+        image: "http://zwin.io/html/gazania/assets/img/others/newsletter-3.png",
+        name: 'Pink Flower Tree',
+        price:54,
+       
+    },
+    {
+        id: 5,
+        image: "http://zwin.io/html/gazania/assets/img/others/newsletter-1.png",
+        name: 'Pink Flower Tree',
+        name: 'Pink Flower Tree',
+       
+    },
+    {
+        id: 6,
+        image: "http://zwin.io/html/gazania/assets/img/blog/2.png",
+        name: 'White flowers',
+        price:532,
+      
+    },
+    {
+        id: 7,
+        image: "https://htmldemo.net/floda/floda/assets/img/product/product-details-img1.jpg",
+        name: 'Pink Flower Tree',
+        price:54,
+       
+    },
+    {
+        id: 8,
+        image: "https://htmldemo.net/floda/floda/assets/img/product/product-details-img2.jpg",
+        name: 'Pink Flower Tree',
+        name: 'Pink Flower Tree',
+       
+    },
+    {
+        id: 9,
+        image: "http://zwin.io/html/gazania/assets/img/blog/2.png",
+        name: 'White flowers',
+        price:532,
+      
+    }
+]

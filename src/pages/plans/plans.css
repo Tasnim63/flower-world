@@ -1,4 +1,9 @@
-.container{
+.plan_banner{
+    color: var(--secondary-color);
+
+}
+
+.plans_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
@@ -14,6 +19,13 @@
 }
 .plan h2{
     display: inline;
+}
+.plan p{
+    margin-top: 1rem;
+    color: var(--heading-color);
+}
+.plan p.disabled{
+    color:var(--paragraph-color);
 }
 .btn {
     margin-top: 1rem;

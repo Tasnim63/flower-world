@@ -7,7 +7,7 @@ import './plans.css'
 export default function Plans() {
   return (
     <>
-      <Header title="Our Flowers Plans Package" image={planbanner}>
+      <Header className="plan_banner" title="Our Flowers Plans Package" image={planbanner}>
         What is a flower explain? Image result for flower A flower is a
         seed-bearing part of a plant, consisting of reproductive organs (stamens
         and carpels) that are typically surrounded by a brightly coloured

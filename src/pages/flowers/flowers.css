@@ -1,0 +1,38 @@
+.flowers_container{
+display: grid;
+grid-template-columns:repeat(3 ,1fr) ;
+gap: 3rem;
+}
+.card.flower{
+    padding: 1rem;
+}
+.flower_img{
+    border-radius: 0 2rem;
+    overflow: hidden;
+}
+.flower_img img{
+    height: 300px;
+}
+
+.flower h3{
+    margin-top: 2rem;
+}
+.flower p{
+    margin-top: 0.5rem;
+    }
+    /* MEDIA QUERY (medium screen) */
+    @media screen  and (max-width:1024px){
+        .flowers_container{
+          
+            grid-template-columns:repeat(2 ,1fr) ;
+            gap: 3rem;
+            } 
+    }
+    /* MEDIA QUERY (small screen) */
+    @media screen  and (max-width:600px){
+        .flowers_container{
+          
+            grid-template-columns:1fr ;
+          
+            } 
+    }

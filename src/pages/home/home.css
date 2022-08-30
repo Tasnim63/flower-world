@@ -225,7 +225,7 @@ footer {
 }
 .footer_container {
   display: grid;
-  grid-template-columns: 26rem 1fr 1fr 1fr;
+  grid-template-columns: 26rem 1fr 1fr 1fr ;
   gap: 6rem;
 }
 .footer_container article {

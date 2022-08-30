@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.plan h3{
+    margin-bottom: .8rem;
+}
+.plan small{
+    margin-bottom: 2rem;
+}
+.plan h1{
+    color: var(--secondary-color-five);
+}
+.plan h2{
+    display: inline;
+}
+.btn {
+    margin-top: 1rem;
+    padding: 0.9rem ;
+  }
+
+/* MEDIA QUERY (medium screen) */
+@media screen  and (max-width:1024px){
+    .plans_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+/* MEDIA QUERY (small screen) */
+@media screen and (max-width:600px) {
+    .plans_container{
+        grid-template-columns: 1fr;
+    }
+    .plan{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .btn {
+        padding: 0.9rem 1rem;
+      }
+}

@@ -4,13 +4,14 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { Link, NavLink } from "react-router-dom";
 import { links } from '../data';
 import './navbar.css';
+import navlogo from '../assets/images/footer-logo (1).png'
 export default function Navbar() {
     const [isNavShowing , setIsNavShowing ] =useState(false);
   return (
   <nav>
     <div className='container nav_container'>
        <Link onClick={() => setIsNavShowing(false) } to="/" className='logo'>
-        <img src="http://zwin.io/html/gazania/assets/img/logo.png" alt="Nav logo" />
+        <img src={navlogo} alt="Nav logo" />
        </Link>
        <ul className={`nav_links ${isNavShowing ?  'show_nav' : 'hide_nav'}`}>
         {

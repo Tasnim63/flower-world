@@ -1,0 +1,28 @@
+.notfound_container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+  /* justify-content: center;
+    align-items: center; */
+
+  align-items: center;
+}
+.notfound_container .btn {
+  margin-top: 2rem;
+  display: inline-block;
+}
+/* MEDIA QUERY for ( small devices )*/
+@media screen and (max-width: 600px) {
+  .notfound_container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notfound_container .btn {
+    margin-top: 2rem;
+    display: inline-block;
+  }
+  .btn {
+    padding: 0.9rem 1rem;
+  }
+}
